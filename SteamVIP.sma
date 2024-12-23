@@ -1,11 +1,17 @@
 #include <amxmodx>
 #include <amxmisc>
-#define VERSION "1.1"
-#define VIP_FLAGS "t"
+#tryinclude <reapi>
 
-public plugin_init()
-{
-	register_plugin("Steam VIP", VERSION, "REDLINEsS")
+#pragma tabsize 4
+
+public stock const PluginName[]         = "Steam VIP ReAPI"
+public stock const PluginVersion[]      = 1.1
+public stock const PluginAuthor[]       = "REDLINEsS"
+public stock const PluginURL[]          = "https://github.com/antrelofficial/"
+public stock const PluginDescription[]  = "LS"
+
+public plugin_init() {
+    register_plugin(PluginName, PluginVersion, PluginAuthor)
 
 }
 
