@@ -6,6 +6,8 @@ new const PLUGIN_VERSION[] = "1.1.3";
 
 #pragma semicolon 1
 
+#define VIP_FLAGS "d"
+
 public plugin_init() {
     register_plugin("SteamVIP", PLUGIN_VERSION, "REDLINEsS");
 
