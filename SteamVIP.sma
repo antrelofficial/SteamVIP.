@@ -28,5 +28,5 @@ public Delayed_AddSteamFreeFlags(id)
 	remove_user_flags(id, read_flags("z"))
 	set_user_flags(id, read_flags(VIP_FLAGS))
 
-	client_print(id, print_chat, "You have received a free VIP for having a Steam Acount!")
+	client_print(id, print_chat, "Вы получили бесплатный VIP за наличие аккаунта Steam!")
 }
