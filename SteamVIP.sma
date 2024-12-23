@@ -2,12 +2,12 @@
 #include <amxmisc>
 #include <reapi>
 
-new const PLUGIN_VERSION[] = "1.1.2";
+new const PLUGIN_VERSION[] = "1.1.3";
 
 #pragma semicolon 1
 
 public plugin_init() {
-    register_plugin("SteamVIPr", PLUGIN_VERSION, "REDLINEsS");
+    register_plugin("SteamVIP", PLUGIN_VERSION, "REDLINEsS");
 
 
 public client_authorized(id)
